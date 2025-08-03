@@ -3,7 +3,7 @@ namespace SpeechToVoiceApp;
 partial class Form1
 {
     private System.Windows.Forms.Button btnStartStop;
-    private System.Windows.Forms.TextBox txtRecognizedText;
+    private System.Windows.Forms.RichTextBox txtRecognizedText;
     private System.Windows.Forms.Label lblSpeechRecognition;
     private System.Windows.Forms.Label lblTextToSpeech;
     private System.Windows.Forms.TextBox txtTextToSpeak;
@@ -37,7 +37,7 @@ partial class Form1
     {
         components = new System.ComponentModel.Container();
         btnStartStop = new Button();
-        txtRecognizedText = new TextBox();
+        txtRecognizedText = new RichTextBox();
         lblSpeechRecognition = new Label();
         lblTextToSpeech = new Label();
         txtTextToSpeak = new TextBox();
@@ -68,16 +68,18 @@ partial class Form1
         // 
         // txtRecognizedText
         // 
-        txtRecognizedText.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-        txtRecognizedText.BackColor = Color.White;
-        txtRecognizedText.BorderStyle = BorderStyle.FixedSingle;
-        txtRecognizedText.Font = new Font("Segoe UI", 10F);
-        txtRecognizedText.Location = new Point(20, 40);
-        txtRecognizedText.Multiline = true;
-        txtRecognizedText.Name = "txtRecognizedText";
-        txtRecognizedText.ScrollBars = ScrollBars.Vertical;
-        txtRecognizedText.Size = new Size(675, 200);
-        txtRecognizedText.TabIndex = 1;
+        this.txtRecognizedText.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+        | System.Windows.Forms.AnchorStyles.Left) 
+        | System.Windows.Forms.AnchorStyles.Right)));
+        this.txtRecognizedText.BackColor = System.Drawing.Color.White;
+        this.txtRecognizedText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+        this.txtRecognizedText.Font = new System.Drawing.Font("Segoe UI", 10F);
+        this.txtRecognizedText.Location = new System.Drawing.Point(20, 40);
+        this.txtRecognizedText.Name = "txtRecognizedText";
+        this.txtRecognizedText.ReadOnly = true;
+        this.txtRecognizedText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+        this.txtRecognizedText.Size = new System.Drawing.Size(675, 200);
+        this.txtRecognizedText.TabIndex = 1;
         toolTip1.SetToolTip(txtRecognizedText, "Displays recognized speech");
         // 
         // lblSpeechRecognition
