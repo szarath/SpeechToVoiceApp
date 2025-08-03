@@ -1,6 +1,7 @@
 # Speech to Voice App
 
 A Windows desktop application built with C# and .NET that provides both speech-to-text and text-to-speech functionality.
+<img width="734" height="590" alt="image" src="https://github.com/user-attachments/assets/cab30d03-c9e9-4d95-a2f6-689c962a1352" />
 
 ## Features
 
@@ -48,4 +49,5 @@ A Windows desktop application built with C# and .NET that provides both speech-t
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.|
+
