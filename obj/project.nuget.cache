@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KlLOIA/Yfvc=",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\SpeechToVoiceApp\\SpeechToVoiceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Szarath\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
